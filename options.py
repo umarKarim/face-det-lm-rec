@@ -15,7 +15,7 @@ class Options():
         parser.add_argument('--perf_face_rec', type=bool, default=True)
         parser.add_argument('--out_dir', type=str, default='outputs/')
         
-        parser.add_argument('--test_im_name', type=str, default='brad_1.jpg')
+        parser.add_argument('--test_im_name', type=str, default='test_ims/brad_1.jpg')
 
         self.opts = parser.parse_args() 
 
