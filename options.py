@@ -10,7 +10,7 @@ class Options():
         parser.add_argument('--anchor_name', type=str, default='anchors.npy')
         parser.add_argument('--face_recog_shape', type=list, default=[160, 160, 3])
         parser.add_argument('--recog_th', type=float, default=2.0)
-        parser.add_argument('--face_database', type=str, default='face_database/')
+        parser.add_argument('--face_database', type=str, default='face_ims/face_database/')
         parser.add_argument('--perf_landmark_det', type=bool, default=True)
         parser.add_argument('--perf_face_rec', type=bool, default=True)
         parser.add_argument('--out_dir', type=str, default='outputs/')
