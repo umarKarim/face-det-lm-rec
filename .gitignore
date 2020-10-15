@@ -1,1 +1,5 @@
-*.vscode*
+*.png
+*.jpg
+*vscode
+*.json*
+*.tflite
