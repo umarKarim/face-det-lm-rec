@@ -1,4 +1,5 @@
 # Face Detection, Landmark Detection and Face Recognition in TensorFlow
+## Introduction
 This repository contains inference code for face detection, landmark detection and face recognition in tensorflow. The repository allows basic understanding of the above tasks using deep neural networks. Also, this repo allows easy testing for Python users of the face models provided by Google. These include
 
 - BlazeFace
