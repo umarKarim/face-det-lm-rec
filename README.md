@@ -30,13 +30,13 @@ For face detection, I use the Blaze Face model from Google mediapipe. For face l
 
 ## Some Results
 ### Good result
-![Input](https://github.com/umarKarim/face-det-lm-rec/tree/master/face_ims/test_ims/momoa_2.jpg)
-![face crop](https://github.com/umarKarim/face-det-lm-rec/tree/master/outputs/face_crop_ok.png)
-![face landmarks](https://github.com/umarKarim/face-det-lm-rec/tree/master/outputs/landmarks_ok.png)
+![Input](https://github.com/umarKarim/face-det-lm-rec/blob/master/face_ims/test_ims/momoa_2.jpg)
+![face crop](https://github.com/umarKarim/face-det-lm-rec/blob/master/outputs/face_crop_ok.png)
+![face landmarks](https://github.com/umarKarim/face-det-lm-rec/blob/master/outputs/landmarks_ok.png)
 ### Bad result
-![Input](https://github.com/umarKarim/face-det-lm-rec/tree/master/face_ims/test_ims/streep_2.jpg)
-![face crop](https://github.com/umarKarim/face-det-lm-rec/tree/master/outputs/face_crop_fail.png)
-![face landmarks](https://github.com/umarKarim/face-det-lm-rec/tree/master/outputs/landmarks_fail.png)
+![Input](https://github.com/umarKarim/face-det-lm-rec/blob/master/face_ims/test_ims/streep_2.jpg)
+![face crop](https://github.com/umarKarim/face-det-lm-rec/blob/master/outputs/face_crop_fail.png)
+![face landmarks](https://github.com/umarKarim/face-det-lm-rec/blob/master/outputs/landmarks_fail.png)
 
 ## Discussion 
 Face mesh sometimes fails if the face is too tilted in any direction. I think the problem is common to landmark detection schemes.
